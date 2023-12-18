@@ -22,7 +22,6 @@ jobs:
 
       - name: Install Dependencies
         run: |
-          npm ci
           npm install react-scripts --force
           npm install firebase --force
 
